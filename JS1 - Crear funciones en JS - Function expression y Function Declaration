@@ -1,0 +1,19 @@
+// Crear funciones en JS - Function expression y Function Declaration
+
+// Declaración de función (Function Declaration)
+
+function sum() {
+    console.log(2+2);
+}
+
+sum();
+sum();
+sum();
+
+// Expresión de función (Function expression)
+
+const sum2 = function() {
+    console.log(23+7);
+}
+
+sum2();
