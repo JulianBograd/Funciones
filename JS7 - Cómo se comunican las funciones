@@ -1,0 +1,19 @@
+// Cómo se comunican las funciones
+
+startApp();
+//secondFunction();
+
+function startApp() {
+    console.log('Iniciando app...');
+    secondFunction();
+}
+
+function secondFunction() {
+    console.log('Desde la segunda función');
+    authenticatedUser('Julián');
+}
+
+function authenticatedUser(user) {
+    console.log('Autenticando usuario, espere');
+    console.log(`${user} autenticado exitosamente`);
+}
