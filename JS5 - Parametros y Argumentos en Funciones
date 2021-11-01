@@ -1,0 +1,17 @@
+// Parametros y Argumentos en Funciones
+
+function sum(a, b) {        // a y b son parámetros de función (Son representativos)
+    console.log(a+b);
+}
+
+sum(2, 3);                  // 2 y 3 son los argumentos (Son los valores reales)
+sum(667, 333);              // 667 y 333 son argumentos
+
+
+
+
+function greet(name, lastName) {
+    console.log(`Hola ${name} ${lastName}, usted estimula mi imaginación.`);
+}
+
+greet('Julián', 'Bograd');
