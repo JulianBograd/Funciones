@@ -1,0 +1,8 @@
+// Parámetros por default
+
+function greet(name='desconocido', lastName='') {
+    console.log(`Buenos días ${name} ${lastName}, me cae bien`);
+}
+
+//greet('Julián', 'Bograd');
+greet();
