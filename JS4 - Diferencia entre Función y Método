@@ -1,0 +1,12 @@
+// Diferencia entre Función y Método
+
+const number1 = 20;
+const number2 = '20';
+
+// son practicamente lo mismo, pero la forma en que son nombrados tienen que ver
+// en el contexto que son utilizadas
+
+console.log(parseInt(number2)); // Esto es una función
+
+console.log(number1.toString()); // Esto es un método -- primero variable y después el método
+
