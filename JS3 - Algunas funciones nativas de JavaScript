@@ -1,0 +1,8 @@
+// Algunas funciones nativas de JavaScript
+
+//Alerta haciendo una pregunta
+prompt('Querés que te diga una cosa?');
+//Alerta con un mensaje
+alert('Aguante el vino');
+//Convertir un String en un número
+console.log(parseInt('293'));
