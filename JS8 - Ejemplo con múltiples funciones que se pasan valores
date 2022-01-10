@@ -1,0 +1,27 @@
+function sum(a, b) {
+    return a + b;
+}
+
+const result = sum (1, 2);;
+console.log(result);
+
+// Ejemplo con funciones más avanzadas
+
+let total = 0;
+function addCart(price) {
+    return total += price;
+}
+
+function calculateTax(total) {
+    return total * 1.21;
+}
+
+total = addCart(299);
+total = addCart(1);
+total = addCart(700);
+total = addCart(1650);
+
+const totalToPay = calculateTax(total);
+
+console.log(total);
+console.log(`El total a pagar es de $${totalToPay}, boludito`);
