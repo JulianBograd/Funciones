@@ -1,0 +1,11 @@
+const learning = function(technology, technology2) {
+    console.log(`Aprendiendo la tecnología ${technology} y ${technology2}`)
+}
+
+learning('Javascript', 'Node.js');
+
+const learning2 = technology => `Aprendiendo la tecnología ${technology} con un solo parámetro`;
+console.log(learning2('Arrow Functions'));
+
+const learning3 = (technology, technology2) => `Aprendiendo la tecnología ${technology} y ${technology2} con dos parámetros`
+console.log(learning3('Arrow functions', '2 parametros'));
