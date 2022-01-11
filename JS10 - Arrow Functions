@@ -1,0 +1,8 @@
+const learning = function() {
+    console.log('Aprendiendo JavaScript');
+}
+
+const learning2 = () => 'Aprendiendo de nuevo gg';
+
+learning();
+console.log(learning2());
