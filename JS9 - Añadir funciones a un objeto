@@ -1,0 +1,31 @@
+const player = {
+    reproduce: function(id) {
+        console.log(`Reproduciendo canción con el id ${id}`)
+    },
+    pause: function() {
+        console.log(`Pausa`)
+    },
+    delete: function(id) {
+        console.log(`Borrando canción ${id}`)
+    },
+    createPlaylist: function(name) {
+        console.log(`Creando Playlist con el nombre "${name}"`)
+    },
+    reproducePlaylist: function(name) {
+        console.log(`Reproduciendo la playlist: ${name}`)
+    }
+}
+
+player.reproduce(30);
+player.pause();
+
+
+//player.delete = function(id) {
+//    console.log(`Borrando canción ${id}`)
+//}
+
+player.delete(20);
+player.createPlaylist('Techno');
+player.createPlaylist('Progressive');
+player.createPlaylist('Deep');
+player.reproducePlaylist('Techno');
